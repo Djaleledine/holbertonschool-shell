@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $PATH| tr ":" "\n" | tr "/" "\n" | grep -v '^[[:space:]]*$' | sort | uniq | wc -l    
